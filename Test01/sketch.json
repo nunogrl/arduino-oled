@@ -2,5 +2,9 @@
   "cpu": {
     "fqbn": "esp8266:esp8266:nodemcuv2",
     "port": "serial:///dev/ttyUSB0"
-  }
+  },
+  "libs": [
+    "Adafruit_GFX_Library",
+    "Adafruit_SSD1306"
+  ]
 }
